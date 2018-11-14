@@ -103,7 +103,7 @@ class Collection
 		return result.values;
 	}
 	
-	public function aggregate( pipeline : Array<Dynamic> ) 
+	public function aggregate( pipeline : Array<Dynamic> ) : Dynamic
 	{
 		// Use BSONDocument to ensure fields order
 		var bson = new org.bsonspec.BSONDocument();

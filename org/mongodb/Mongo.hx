@@ -1,6 +1,6 @@
 package org.mongodb;
 
-class Mongo implements Dynamic<Database>
+class Mongo 
 {
 	public function new(?host:String = "localhost", ?port:Int = 27017)
 	{

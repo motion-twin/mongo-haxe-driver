@@ -7,7 +7,7 @@ package org.mongodb;
 #end
 import org.bsonspec.BSONDocument;
 
-class Database implements Dynamic<Collection>
+class Database 
 {
 	public function new(name:String, mongo:Mongo)
 	{
